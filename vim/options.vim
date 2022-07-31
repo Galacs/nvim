@@ -12,3 +12,9 @@ if !isdirectory("/tmp/.vim-undo-dir")
 endif
 set undodir=/tmp/.vim-undo-dir
 set undofile
+set hlsearch
+set autoindent
+set shiftwidth=4
+set expandtab
+set incsearch
+filetype plugin indent on
